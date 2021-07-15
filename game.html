@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Math Multiplication Quiz</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="game_style.css">
+    <script src="game_main.js"></script>
+
+    </head>
+    <body>
+
+        <h4 id="player_1_name"></h4><span id="player1_score"></span>
+        <script>
+            document.getElementById("player_1_name").innerHTML = player1_name+ ":" ;
+            document.getElementById("player1_score").innerHTML = player1_score;
+        </script>
+
+            <br>
+
+        <h4 id="player_2_name"></h4><span id="player2_score"></span>
+        <script>
+            document.getElementById("player_2_name").innerHTML = player2_name+ ":" ;
+            document.getElementById("player2_score").innerHTML = player2_score;
+        </script>
+
+        <div class="container">
+        <center>
+            
+            <h1 style="color:floralwhite;"><b>Math MULTIPLICATION Quiz!!</b></h1>
+
+            <h2 id="player_Q"></h2>
+            <h2 id="player_ANS"></h2>
+            <script>
+                document.getElementById("player_Q").innerHTML = "Question Turn :" +player1_name;
+                document.getElementById("player_ANS").innerHTML = "Answer Turn :" +player2_name;
+
+            </script>
+
+            <div id="output" class="col-lg-6"></div>
+
+            <br>
+		    <br>
+
+            <div>
+                <h4>Number 1:</h4>
+                <input class="form-control" id="no_1" placeholder="Number 1" type="number">
+            </div>
+
+            <div>
+                <h4>Number 2:</h4>
+                <input class="form-control" id="no_2" placeholder="Number 2" type="number">
+            </div>
+            <script>
+                document.getElementById("no_2").value = "";
+                document.getElementById("no_1").value = "";
+            </script>
+
+                <button class="btn btn-primary" onclick="send()">SEND</button>
+
+        </center>
+    </div>
+    </body>
+</html>

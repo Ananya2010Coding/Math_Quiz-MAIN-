@@ -1,0 +1,29 @@
+body{
+    background-image: url("World BG.png");
+    background-position: center;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(46, 2, 78);
+}
+
+h1{
+    font-weight: bolder;
+}
+
+button{
+    border-style: ridge;
+    border-color: lightcoral;
+}
+img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login_div1, .login_div2{
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+}
+
+
+

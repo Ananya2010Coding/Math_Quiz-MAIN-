@@ -1,0 +1,50 @@
+body{
+    background-image: url("Math BG.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#player_1_name , #player_2_name
+{
+	display: inline-block ;
+	margin-left: 20px;
+	color: floralwhite;
+}
+#player1_score , #player2_score
+{
+	display: inline-block;
+	margin-left: 20px;
+	color: floralwhite;
+}
+#no_1, #no_2
+{
+	width: 60%;
+	color: black;
+}
+#no_1_display
+{
+	letter-spacing: 5px;
+}
+#no_2_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+button{
+	margin: 5px;
+	font-size: larger;
+}
+h4{
+	color: floralwhite;
+	margin: 10px;
+}
+#player_Q , #player_ANS{
+	color: white;
+}
